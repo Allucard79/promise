@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "http-server",
+    "start": "browser-sync start --server --files 'css/*.css' '*.html'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "babel-polyfill": "^6.26.0",
+    "browser-sync": "^2.26.3"
   },
   "description": ""
 }
